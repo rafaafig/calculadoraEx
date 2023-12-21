@@ -8,4 +8,14 @@ public class Main {
             // i need a variable
         }
     }
+
+    public static int soma(int[] numeros) {
+        int soma = 0;
+
+        for (int numero : numeros) {
+            soma += numero;
+        }
+
+        return soma;
+    }
 }

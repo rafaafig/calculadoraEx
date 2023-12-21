@@ -1,7 +1,13 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+    }
+
+    public static double subtrairNumeros(double num1, double num2) {
+        return num1 - num2;
     }
 }
